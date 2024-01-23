@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+}
+
+
+/* header */
+.header{
+    padding: 30px;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    display: flex;
+    float: right;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+  
+.menu{
+    float: right;
+    width: 50px;
+    padding-left: 80%;
+    display: flex;
+}
+  
+a{
+    text-decoration: none;
+    color: black;
+}
+  
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+  
+
+
+/* About */
+.about{
+    display: flex;
+    justify-content: center;
+}
+
+.about-img{
+    display: block;
+    margin-top: 100px;
+    margin-left:  10px auto;
+    margin-right: auto;
+    width: 70%;
+    height: 80%;
+}
+  
+.about-text{
+    width: 40%;
+}
+  
+hr{
+    width: 80%;
+}
+
+
+/* our menu */
+
+.menu-offer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu-img{
+    width: 40%;
+    height: 10%;
+}
+
+ol{
+    list-style-type: none;
+}
+
+
+/* Contact */
+form .input-fields{
+    display: inline-grid;
+    width: 50%;
+}
+
+input{
+    padding: 15px;
+    margin: 20px;
+
+}
+
+.contact-form{
+    justify-content: center;
+}
+
+
+
+/* Footer */
+.footer{
+    bottom: 0;
+    width: 100%;
+    background-color: #F1F1F1;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Mobil */
+
+@media (max-width: 700px){
+    .about{
+        display: inline-block;
+    }
+    .about-text{
+        justify-content: center;
+        text-align: center;
+    }
+}
